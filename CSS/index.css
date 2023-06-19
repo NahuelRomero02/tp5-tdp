@@ -1,0 +1,44 @@
+h1{
+    background: linear-gradient(to right,#005c98,#505bda);
+    font-family: monospace;
+}
+body{
+    background: linear-gradient(to right,#005c98,#505bda);
+
+}
+
+div{
+    border: 2px solid black;
+  padding: 10px;
+    /*ESTILO DE IMAGENES */
+}
+
+div img {
+    max-width: 100%;
+    height: 600px;
+    width: 470px;
+    /* Tamaño deseado para la imagen */
+    
+    transition: transform 1.3s ease-in-out;
+    animation: movimiento 5.5s linear infinite;
+}
+  
+  div img:hover {
+    transform: scale(1.3);
+  }
+  
+@keyframes movimiento {
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(25px);
+    }
+    0%{
+        transform: translateY(0);
+    }
+    
+}
+
+
+
