@@ -1,0 +1,40 @@
+body{
+    background:linear-gradient(rgb(40, 25, 25),rgb(65, 65, 25))
+}
+
+/* styles.css */
+
+.contact-table {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #333;
+    border-collapse: collapse;
+    margin-top: 20px;
+    position: absolute;
+    top: 150px;
+    left: 475px;
+  }
+  
+  .contact-table th,
+  .contact-table td {
+    border: 1px solid black;
+    padding: 8px;
+    color: white
+  }
+  
+  .contact-table th {
+    background-color: #391616;
+    color: white;
+  }
+  
+  .contact-table a {
+    color: #0066cc;
+    text-decoration: none;
+    color: white
+  }
+  
+  .contact-table a:hover {
+    text-decoration: underline;
+    color: white
+  }
+  
