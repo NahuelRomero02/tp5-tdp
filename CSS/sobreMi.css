@@ -1,0 +1,8 @@
+body{
+    background: linear-gradient(#212121,#1a1a1a,#2a2929);
+}
+p{
+    font-size: larger;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
